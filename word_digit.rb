@@ -1,8 +1,4 @@
 module IntStrings
-  #this is a hash table that maps the word representation of numbers.
-  #the word count is prepopulated to avoid runtime complexity. example of accessing data:
-  # int_string[19][0] => will return the word representation of number 19
-  # int_string[20][1] => will return the word length of number 20
   def define_large_numbers()
      @million           = 1000000
      @billion           = 1000000000
